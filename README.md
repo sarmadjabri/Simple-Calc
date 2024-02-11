@@ -159,5 +159,27 @@ else:
 time.sleep(5)
 
 
+# Draw polygon formula
+import turtle
+
+def draw(sides, length):
+    for _ in range(int(sides)):
+        turtle.forward(int(length))
+        turtle.right(360 / int(sides))
+
+
+# Draw circle 
+import turtle
+
+
+def draw(radius):
+    turtle.circle(radius)
+
+
+
+
+
+
+
 
 
